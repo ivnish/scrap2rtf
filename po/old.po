@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-11 13:17+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/main.cpp:41
+msgid "Try '"
+msgstr "Запустите '"
+
+#: ../src/main.cpp:44
+msgid "Usage: "
+msgstr "Использование: "
+
+#: ../src/main.cpp:45
+msgid "Convert Shell Scrap Object File to Rich Text Format."
+msgstr "Преобразовывает файлы фрагментов в Rich Text Format."
+
+#: ../src/main.cpp:46
+msgid "  -r, --remove-original \tremove original scrap file"
+msgstr "  -r, --remove-original \tудалить оригинал"
+
+#: ../src/main.cpp:47
+msgid "  -v, --verbose\t\t\tverbosely list files processed"
+msgstr "  -v, --verbose\t\t\tподробный вывод"
+
+#: ../src/main.cpp:48
+msgid "  -o, --output-directory        output directory"
+msgstr "  -o, --output\t\t\tкаталог для обработанных фрагментов"
+
+#: ../src/main.cpp:49
+msgid ""
+"  -s, --same-directory          convert files into the same directory where "
+"the scrap"
+msgstr ""
+"  -s, --same-directory          преобразовывать файлы в тот же каталог, где "
+"и фрагмент"
+
+#: ../src/main.cpp:50
+msgid "      --help\t\t\tdisplay this help and exit"
+msgstr "      --help\t\t\tпоказать эту справку и выйти"
+
+#: ../src/main.cpp:51
+msgid "      --version\t\t\toutput version information and exit"
+msgstr "      --version\t\t\tпоказать информацию о версии и выйти"
+
+#: ../src/main.cpp:52
+msgid "Report "
+msgstr "Отчеты об ошибках "
+
+#: ../src/main.cpp:53
+msgid " home page: <http://code.google.com/p/scrap2rtf/>"
+msgstr " домашняя страница: <http://code.google.com/p/scrap2rtf/>"
+
+#: ../src/main.cpp:54
+msgid "General help using GNU software: <http://www.gnu.org/gethelp/>"
+msgstr "Справка по работе с программами GNU: <http://www.gnu.org/gethelp/>"
+
+#: ../src/main.cpp:78 ../src/main.cpp:86 ../src/main.cpp:94
+msgid ": File "
+msgstr ": файл "
+
+#: ../src/main.cpp:78
+msgid " was create is MS Word 2003/2007/2010"
+msgstr " был создан в MS Word 2003/2007/2010"
+
+#: ../src/main.cpp:86
+msgid " was create is MS Excel 2003"
+msgstr " был создан в MS Excel 2003"
+
+#: ../src/main.cpp:94
+msgid " was create is MS Excel 2007/2010"
+msgstr " был создан в MS Excel 2007/2010"
+
+#: ../src/main.cpp:99
+msgid ": File is not a scrap"
+msgstr " : файл не является фрагментом"
+
+#: ../src/main.cpp:117 ../src/main.cpp:132 ../src/main.cpp:147
+#: ../src/main.cpp:202
+msgid "File "
+msgstr "Файл "
+
+#: ../src/main.cpp:117 ../src/main.cpp:132 ../src/main.cpp:147
+msgid " successfully converted to file "
+msgstr " успешно преобразован в файл "
+
+#: ../src/main.cpp:199
+msgid "Cannot remove original scrap "
+msgstr "Невозможно удалить оригинальный фрагмент "
+
+#: ../src/main.cpp:202
+msgid " successfully removed"
+msgstr " успешно удален"
+
+#: ../src/main.cpp:235
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
+"html>."
+msgstr ""
+"Лицензия GPLv3+: GNU GPL версии 3 или новее <http://gnu.org/licenses/gpl."
+"html>"
+
+#: ../src/main.cpp:236
+msgid "This is free software: you are free to change and redistribute it."
+msgstr "Это свободное ПО: вы можете продавать и распространять его."
+
+#: ../src/main.cpp:237
+msgid "There is NO WARRANTY, to the extent permitted by law."
+msgstr "Нет НИКАКИХ ГАРАНТИЙ до степени, разрешённой законом."
+
+#: ../src/main.cpp:238
+msgid "Written by "
+msgstr "Автор программы "
+
+#: ../src/main.cpp:249
+msgid "Output directory not found, use current directory"
+msgstr ""
+"Каталог для обработанных фрагментов не найден, будет использоваться текущий"
+
+#: ../src/main.cpp:258
+msgid "7z not found, please run \"sudo apt-get install p7zip-full\""
+msgstr "7z не найден, пожалуйста запустите \"sudo apt-get install p7zip-full\""
+
+#: ../src/main.cpp:265
+msgid "7z not found, please reinstall application"
+msgstr "7z не найден, пожалуйста переустановите приложение"
+
+#: ../src/main.cpp:301
+msgid ""
+"Sorry, but in the windows version streams processing is not yet implemented"
+msgstr ""
+
