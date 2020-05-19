@@ -1,6 +1,0 @@
-Installation
-
-	* qmake-qt4 scrap2rtf.pro -r -spec linux-g++
-	* make
-	* sudo make install
-
