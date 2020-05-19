@@ -12,8 +12,8 @@ HEADERS += \
     src/common_head.h \
     src/common_func.h
 
-OBJECTS_DIR = src
-MOC_DIR = src
-UI_DIR = src
-DESTDIR = src
+OBJECTS_DIR = build
+MOC_DIR = build
+UI_DIR = build
+DESTDIR = build
 

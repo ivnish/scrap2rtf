@@ -1,7 +1,7 @@
 TEMPLATE = app
 CONFIG += console
 CONFIG -= qt
-TARGET = src/scrap2rtf
+TARGET = scrap2rtf
 
 SOURCES += \
     src/main.cpp \
@@ -12,8 +12,8 @@ HEADERS += \
     src/common_head.h \
     src/common_func.h
 
-OBJECTS_DIR = src
-MOC_DIR = src
+OBJECTS_DIR = build
+MOC_DIR = build
 UI_DIR = src
 
 INSTALLS += target languages
