@@ -1,4 +1,8 @@
-makedeb.sh
-makedeb_x64.sh
-translate.sh
-TODO
+/makedeb_x64.sh
+/translate.sh
+/TODO
+/Makefile
+*.pro.user
+*.pro.user.*
+/build/*
+/scrap2rtf
