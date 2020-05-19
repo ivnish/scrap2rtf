@@ -5,7 +5,7 @@ English description is below.
 
 Если вы хотите собрать сами из исходников:
 
-* qmake QScrap2rtf.pro -r -spec linux-g++-64
+* qmake scrap2rtf.pro -r -spec linux-g++-64
 * make
 * sudo make install
 
@@ -16,7 +16,7 @@ Text Format
 
 If you want to install from sources:
 
-* qmake QScrap2rtf.pro -r -spec linux-g++-64
+* qmake scrap2rtf.pro -r -spec linux-g++-64
 * make
 * sudo make install
 
