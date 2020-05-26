@@ -272,7 +272,7 @@ int main (int argc, char **argv) {
       #ifdef LINUX
         /* Temp file name*/
         string szFilename = "/tmp/";
-        szFilename += mktemp(strdup("scrapXXXXXX"));
+        szFilename += mkdtemp(strdup("scrapXXXXXX"));
         szFilename += ".shs";
         /* Create temp file*/
         ofstream OutputFile(szFilename.c_str(), ios::out | ios::binary);
