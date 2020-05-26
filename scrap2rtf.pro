@@ -5,12 +5,12 @@ TARGET = scrap2rtf
 
 SOURCES += \
     src/main.cpp \
-    src/common_func.cpp
+    src/helpers.cpp
 
 HEADERS += \
     src/main.h \
-    src/common_head.h \
-    src/common_func.h
+    src/helpers.h \
+    src/head.h
 
 OBJECTS_DIR = build
 MOC_DIR = build
@@ -22,4 +22,3 @@ target.path = /usr/bin
 
 languages.path = /usr/share/locale/ru/LC_MESSAGES
 languages.files += po/scrap2rtf.mo
-

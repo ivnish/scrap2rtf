@@ -5,15 +5,14 @@ TARGET = scrap2rtf
 
 SOURCES += \
     src/main.cpp \
-    src/common_func.cpp
+    src/helpers.cpp
 
 HEADERS += \
     src/main.h \
-    src/common_head.h \
-    src/common_func.h
+    src/head.h \
+    src/helpers.h
 
 OBJECTS_DIR = build
 MOC_DIR = build
-UI_DIR = build
+UI_DIR = src
 DESTDIR = build
-
