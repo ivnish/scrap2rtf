@@ -1,8 +1,10 @@
-/makedeb_x64.sh
-/translate.sh
+/scripts/*
 /TODO
-/Makefile
+/Makefile*
 *.pro.user
 *.pro.user.*
 /build/*
 /scrap2rtf
+.qmake.stash
+/release/*
+/debug/*

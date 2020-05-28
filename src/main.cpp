@@ -18,10 +18,10 @@ static struct option const long_options[] = {
 /* "Usage" function */
 void usage (int status) {
   if (status != EXIT_SUCCESS) {
-    cout << _("Try '"PROGRAM_NAME" --help' for more information.") << endl;
+    cout << _("Try '" PROGRAM_NAME " --help' for more information.") << endl;
   }
   else {
-    cout << _("Usage: "PROGRAM_NAME" [OPTION]... [FILE]...") << endl << endl;
+    cout << _("Usage: " PROGRAM_NAME " [OPTION]... [FILE]...") << endl << endl;
     cout << _("Convert Shell Scrap Object File to Rich Text Format.") << endl << endl;
     cout << _("  -r, --remove-original       remove original scrap file") << endl;
     cout << _("  -v, --verbose               verbosely list files processed") << endl;
@@ -29,8 +29,8 @@ void usage (int status) {
     cout << _("  -s, --same-directory        convert files into the same directory where the scrap") << endl;
     cout << _("      --help                  display this help and exit") << endl;
     cout << _("      --version               output version information and exit") << endl << endl;
-    cout << _("Report "PROGRAM_NAME" bugs to "EMAIL) << endl;
-    cout << _(PROGRAM_NAME" home page: <"URL">") << endl;
+    cout << _("Report " PROGRAM_NAME " bugs to " EMAIL) << endl;
+    cout << _(PROGRAM_NAME " home page: <" URL ">") << endl;
     cout << _("General help using GNU software: <http://www.gnu.org/gethelp/>") << endl;
   }
 
@@ -223,7 +223,7 @@ int main (int argc, char **argv) {
         break;
       case GETOPT_VERSION_CHAR:
         cout << PROGRAM_NAME << " " << VERSION << endl;
-        cout << "Copyright (C) 2009-2020 "AUTHORS << endl;
+        cout << "Copyright (C) 2009-2020 " AUTHORS << endl;
         cout << _("License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.") << endl;
         cout << _("This is free software: you are free to change and redistribute it.") << endl;
         cout << _("There is NO WARRANTY, to the extent permitted by law.") << endl << endl;

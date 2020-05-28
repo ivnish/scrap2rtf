@@ -15,4 +15,3 @@ HEADERS += \
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = src
-DESTDIR = build

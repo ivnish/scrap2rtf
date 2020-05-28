@@ -82,7 +82,7 @@ void MyCopyFile(const string szSourceFile, const string szDestFile) {
   ofstream fDestFile(szDestFile.c_str(), fstream::trunc|fstream::binary);
 
   if ((!fDestFile.is_open()) && (!fDestFile.good())) {
-    cerr << PROGRAM_NAME << ": " << fDestFile << ": " << _("Cannot create file") << endl;
+    cerr << PROGRAM_NAME << ": " << szDestFile << ": " << _("Cannot create file") << endl;
     fSourceFile.close();
     exit (EXIT_FAILURE);
   }
